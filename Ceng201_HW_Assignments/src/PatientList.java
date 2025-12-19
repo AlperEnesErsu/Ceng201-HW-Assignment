@@ -49,6 +49,7 @@ public class PatientList {
 
         while (current != null) {
             if (current.data.id == id) {
+                System.out.println(id+" is in the patient list");
                 return current.data;
             }
             current = current.next;
@@ -90,3 +91,4 @@ public class PatientList {
 
     }
 }
+
