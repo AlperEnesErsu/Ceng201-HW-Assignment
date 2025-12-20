@@ -12,6 +12,7 @@ public class Patient {
         this.age = age;
     }
     public String toString(){
-        return "ID: " + id + ", İsim: " + name + ", Ciddiyet: " + severity + ", Yaş: " + age;
+        return "ID: " + id + ", Name: " + name + ", Age: " + age +", Severity: " + severity;
     }
 }
+
